@@ -66,7 +66,6 @@ class Page2: UIViewController {
         datePicker.datePickerMode = .date
         datePicker.backgroundColor = #colorLiteral(red: 0.9637209141, green: 0.9637209141, blue: 0.9637209141, alpha: 1)
         datePicker.timeZone = TimeZone(secondsFromGMT: 0)
-        //      datePicker.addTarget(self, action: #selector(takeDate), for: .valueChanged)
         return datePicker
     }()
     
@@ -150,7 +149,4 @@ class Page2: UIViewController {
         navigationController?.navigationBar.backgroundColor = #colorLiteral(red: 0.143452806, green: 0.1553194879, blue: 0.1725588291, alpha: 1)
     }
 }
-/*@objc func handleDateChange() {
- print(myDatePicker.date)
- }*/
 
